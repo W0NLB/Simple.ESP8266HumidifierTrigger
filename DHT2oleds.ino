@@ -20,9 +20,9 @@ SSD1306Wire displaySSD(0x3C, OLED_SDA, OLED_SCL); // 0.96" SSD1306
 SH1106Wire  displaySH (0x3D, OLED_SDA, OLED_SCL); // 1.3" SH1106
 
 // WiFi / Server config
-const char* ssid = "SIGINT_KeyHole7";
-const char* password = "M781166s";
-const char* ESP32_IP = "192.168.1.120"; // <-- set the ESP32 IP here
+const char* ssid = "Your_SSID";
+const char* password = "Your_pw";
+const char* ESP32_IP = "192.168.1.xxx"; // <-- set the ESP32 IP here
 const uint16_t ESP32_PORT = 80;
 
 DHT dht(DHTPIN, DHTTYPE);
